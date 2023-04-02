@@ -23,6 +23,8 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
         primarySwatch: Colors.red,
       ),
+      debugShowCheckedModeBanner: false,
+      initialRoute: MyRoutes.homeRoute,
       routes: {
         "/": (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),
@@ -32,5 +34,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyRutes {
-}
+class MyRutes {}
