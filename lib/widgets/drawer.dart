@@ -7,7 +7,7 @@ class MyDrawer extends StatelessWidget {
     // ignore: prefer_const_declarations
     return Drawer(
       child: Container(
-        color: Colors.red,
+        color: Colors.deepPurple,
         child: ListView(
           padding: EdgeInsets.zero,
           children: const [
